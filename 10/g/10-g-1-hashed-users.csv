@@ -1,0 +1,4 @@
+UserName,Password,Claims
+lionael@yahoo.com,tsZaYG4DnryRAGVkkftpVL8GPIyEJl6CsyaNIL4PE/yZmv0MP+0lPplUo6k6iegvLU3dRsWqI7ISx0jbCcpMrQ==,http://wso2.org/claims/emailaddress=lionael@yahoo.com,http://wso2.org/claims/country=US
+mark@gmail.com,tsZaYG4DnryRAGVkkftpVL8GPIyEJl6CsyaNIL4PE/yZmv0MP+0lPplUo6k6iegvLU3dRsWqI7ISx0jbCcpMrQ==,http://wso2.org/claims/emailaddress=mark@gmail.com,http://wso2.org/claims/country=UK
+nathan@live.com,tsZaYG4DnryRAGVkkftpVL8GPIyEJl6CsyaNIL4PE/yZmv0MP+0lPplUo6k6iegvLU3dRsWqI7ISx0jbCcpMrQ==,http://wso2.org/claims/emailaddress=nathan@live.com,http://wso2.org/claims/country=KR

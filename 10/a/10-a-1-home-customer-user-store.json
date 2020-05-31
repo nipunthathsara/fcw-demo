@@ -1,0 +1,235 @@
+{
+  "typeId": "UmVhZFdyaXRlTERBUFVzZXJTdG9yZU1hbmFnZXI",
+  "name": "home-customer",
+  "description": "Connects to the Guradio-Home customer user base",
+  "properties": [
+    {
+      "name": "BulkImportSupported",
+      "value": "true"
+    },
+    {
+      "name": "UserDNPattern",
+      "value": ""
+    },
+    {
+      "name": "GroupNameListFilter",
+      "value": "(objectClass=groupOfNames)"
+    },
+    {
+      "name": "BackLinksEnabled",
+      "value": "false"
+    },
+    {
+      "name": "defaultRealmName",
+      "value": "guardio.com"
+    },
+    {
+      "name": "PasswordJavaScriptRegEx",
+      "value": "^[\\S]{5,30}$"
+    },
+    {
+      "name": "MaxUserNameListLength",
+      "value": "100"
+    },
+    {
+      "name": "WriteGroups",
+      "value": "true"
+    },
+    {
+      "name": "LDAPInitialContextFactory",
+      "value": "com.sun.jndi.ldap.LdapCtxFactory"
+    },
+    {
+      "name": "ConnectionRetryDelay",
+      "value": "120000"
+    },
+    {
+      "name": "StartTLSEnabled",
+      "value": "false"
+    },
+    {
+      "name": "EmptyRolesAllowed",
+      "value": "true"
+    },
+    {
+      "name": "UserNameJavaScriptRegEx",
+      "value": "^[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$"
+    },
+    {
+      "name": "ConnectionPoolingEnabled",
+      "value": "false"
+    },
+    {
+      "name": "ClaimOperationsSupported",
+      "value": "true"
+    },
+    {
+      "name": "MaxRoleNameListLength",
+      "value": "100"
+    },
+    {
+      "name": "ConnectionURL",
+      "value": "ldap://home.guardio.com:10389"
+    },
+    {
+      "name": "Disabled",
+      "value": "false"
+    },
+    {
+      "name": "MultiAttributeSeparator",
+      "value": ","
+    },
+    {
+      "name": "RoleDNPattern",
+      "value": ""
+    },
+    {
+      "name": "RetryAttempts",
+      "value": "0"
+    },
+    {
+      "name": "PasswordJavaRegEx",
+      "value": "^[\\S]{5,30}$"
+    },
+    {
+      "name": "ReadOnly",
+      "value": "false"
+    },
+    {
+      "name": "DomainName",
+      "value": "home-customer"
+    },
+    {
+      "name": "UserNameJavaRegEx",
+      "value": "^[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}"
+    },
+    {
+      "name": "UserEntryObjectClass",
+      "value": "identityPerson"
+    },
+    {
+      "name": "UserRolesCacheEnabled",
+      "value": "true"
+    },
+    {
+      "name": "MembershipAttributeRange",
+      "value": "0"
+    },
+    {
+      "name": "UserNameSearchFilter",
+      "value": "(&(objectClass=person)(uid=?))"
+    },
+    {
+      "name": "UserNameListFilter",
+      "value": "(objectClass=person)"
+    },
+    {
+      "name": "UserNameAttribute",
+      "value": "uid"
+    },
+    {
+      "name": "UserSearchBase",
+      "value": "ou=users,dc=guardio,dc=com"
+    },
+    {
+      "name": "MembershipAttribute",
+      "value": "member"
+    },
+    {
+      "name": "Class",
+      "value": "org.wso2.carbon.user.core.ldap.ReadWriteLDAPUserStoreManager"
+    },
+    {
+      "name": "LDAPConnectionTimeout",
+      "value": "5000"
+    },
+    {
+      "name": "MemberOfAttribute",
+      "value": ""
+    },
+    {
+      "name": "ReadGroups",
+      "value": "true"
+    },
+    {
+      "name": "Description",
+      "value": "demo LDAP userstore."
+    },
+    {
+      "name": "GroupSearchBase",
+      "value": "ou=groups,dc=guardio,dc=com"
+    },
+    {
+      "name": "DisplayNameAttribute",
+      "value": ""
+    },
+    {
+      "name": "java.naming.ldap.attributes.binary",
+      "value": ""
+    },
+    {
+      "name": "GroupNameAttribute",
+      "value": "cn"
+    },
+    {
+      "name": "ReadTimeout",
+      "value": "5000"
+    },
+    {
+      "name": "ConnectionName",
+      "value": "uid=admin,ou=system"
+    },
+    {
+      "name": "GroupNameSearchFilter",
+      "value": "(&(objectClass=groupOfNames)(cn=?))"
+    },
+    {
+      "name": "GroupEntryObjectClass",
+      "value": "groupOfNames"
+    },
+    {
+      "name": "UserIdSearchFilter",
+      "value": "(&(objectClass=person)(uid=?))"
+    },
+    {
+      "name": "ConnectionPassword",
+      "value": "admin$#@!"
+    },
+    {
+      "name": "CountRetrieverClass",
+      "value": ""
+    },
+    {
+      "name": "RoleNameJavaRegEx",
+      "value": "[a-zA-Z0-9._-|//]{3,30}$"
+    },
+    {
+      "name": "RoleNameJavaScriptRegEx",
+      "value": "^[\\S]{3,30}$"
+    },
+    {
+      "name": "UserDNCacheEnabled",
+      "value": "true"
+    },
+    {
+      "name": "UsernameJavaRegExViolationErrorMsg",
+      "value": "Username pattern policy violated."
+    },
+    {
+      "name": "PasswordJavaRegExViolationErrorMsg",
+      "value": "Password pattern policy violated."
+    },
+    {
+      "name": "kdcEnabled",
+      "value": "false"
+    },
+    {
+      "name": "PasswordHashMethod",
+      "value": "PLAIN_TEXT"
+    },
+    {
+      "name": "UserCacheExpiryMilliseconds",
+      "value": ""
+    }
+  ]
+}
