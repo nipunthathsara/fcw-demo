@@ -13,6 +13,7 @@
                "urn:ietf:params:scim:schemas:core:2.0:User"
             ],
             "userName":"life-customer/ron@weasley.me",
+	    "emails" : ["ron@weasley.me"],
             "password":"pa$$w0rd"
          }
       },
@@ -25,6 +26,7 @@
                "urn:ietf:params:scim:schemas:core:2.0:User"
             ],
             "userName":"life-customer/sam@icloud.com",
+	    "emails" : ["sam@icloud.com"],
             "password":"pa$$w0rd"
          }
       },
@@ -37,6 +39,7 @@
                "urn:ietf:params:scim:schemas:core:2.0:User"
             ],
             "userName":"life-customer/trixie@yahoo.com",
+	    "emails" : ["trixie@yahoo.com"],
             "password":"pa$$w0rd"
          }
       }
