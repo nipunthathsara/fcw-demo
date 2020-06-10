@@ -225,7 +225,7 @@
     },
     {
       "name": "PasswordHashMethod",
-      "value": "PLAIN_TEXT"
+      "value": "SHA-512"
     },
     {
       "name": "UserCacheExpiryMilliseconds",
